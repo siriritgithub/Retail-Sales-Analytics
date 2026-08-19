@@ -4,6 +4,12 @@ An end-to-end retail sales analytics project using **MySQL, Excel, and Power BI*
 
 ---
 
+## 🎯 Business Question
+
+Which regions, segments, and product categories should this retailer prioritize for growth — and where is profitability being quietly eroded by discounting? This project uses SQL, Excel, and Power BI to turn ~10,194 raw transaction records into a clear answer.
+
+---
+
 ## 📌 Project Overview
 
 This project analyzes a Superstore-style retail dataset containing approximately **10,194 orders**.
@@ -56,12 +62,13 @@ Retail-Sales-Analytics/
 │   ├── SQL2.png
 │   ├── SQL3.png
 │   ├── SQL4.png
-│   ├── business-insights.png.png
-│   ├── dashboard.png.png
-│   ├── excel-business-analysis1.png.png
-│   └── excel-business-analysis2.png.png
+│   ├── business-insights.png
+│   ├── dashboard.png
+│   ├── excel-business-analysis1.png
+│   └── excel-business-analysis2.png
 │
 └── README.md
+```
 ---
 
 ## 🗄️ SQL Analysis
@@ -139,7 +146,7 @@ Power BI file:
 - **Consumer** generated the highest sales and total profit.
 - **Home Office** had the highest profit margin among the segments.
 - **Furniture** had approximately a **3% profit margin**, compared with around **17%** for Technology and Office Supplies.
-- High discounts had a significant negative impact on profitability.
+- Orders discounted at **50% or above** generated a combined loss of approximately **$77K across 874 orders** — a negative contribution of about **26%** relative to total profit.
 - Binders, Chairs, Phones, Storage, and Tables were among the leading sub-categories by sales.
 
 ---
@@ -160,18 +167,15 @@ Power BI file:
 
 ### Power BI Dashboard
 
-![Power BI Dashboard](Screenshots/dashboard.png.png)
-
-
-
+![Power BI Dashboard](Screenshots/dashboard.png)
 
 ### Excel Business Analysis
 
-![Excel Business Analysis](Screenshots/excel-business-analysis1.png.png)
+![Excel Business Analysis](Screenshots/excel-business-analysis1.png)
 
 ### Business Insights
 
-![Business Insights](Screenshots/business-insights.png.png)
+![Business Insights](Screenshots/business-insights.png)
 
 ---
 
@@ -225,6 +229,6 @@ The raw dataset is included in the `Dataset/` folder for reproducibility.
 
 ## 👨‍💻 Author
 
-**Siririt GitHub**
+**Orlotu Sirisha**
 
 Retail Sales Analytics Project
